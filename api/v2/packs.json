@@ -31,7 +31,31 @@
             "description":"You'll have to write in these games."
         }
     ],
-    "patchsCategories": [],
+    "patchsCategories": [
+        {
+        "id": "jackbox_ukraine",
+        "name": "Jackbox Ukraine",
+        "smallDescription": "Спілка локалізаторів, що утворилася десь у липні 2022 року. Jackbox Ukraine — це проєкт, до якого можуть долучитися усі бажаючі, та пропонувати свої варіанти перекладу.",
+        "patchs": [
+          "jackbox_ukraine-3",
+          "jackbox_ukraine-4",
+          "jackbox_ukraine-6",
+          "jackbox_ukraine-7",
+          "jackbox_ukraine-starter",
+          "jackbox_ukraine-drawful2",
+          "jackbox_ukraine-quiplash2int"
+        ]
+      },
+      {
+        "id": "tusa",
+        "name": "TUSA",
+        "smallDescription": "«TUSA» — це команда, що утворилася 21 жовтня 2022 року внаслідок об'єднання локалізаторів з «What If?», «TDoT», «Translate Guardians» та «AE Studios».",
+        "patchs": [
+          "tusa-6",
+          "translate_guardians-quiplash"
+        ]
+      }
+    ],
     "packs":[
     {
         "id":"jpp1",
@@ -661,7 +685,97 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-3",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-3"
         },
-        "patchs":[],
+        "patchs":[
+            {
+              "id": "jackbox_ukraine-3",
+              "name": "Jackbox Party Pack 3",
+              "small_description": "Текстовий переклад усіх ігор, озвучення до чотирьох",
+              "patch_path": "https://github.com/jackbox-ukraine/jpp3/releases/latest/download/JPP3-ua.zip",
+              "configuration": {
+                "version_origin": "repo_file",
+                "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/jpp3/main/config.jet",
+                "version_property": "buildVersion"
+              },
+              "supported_launchers": ["steam","epic","native"],
+              "components": [
+                {
+                  "id": "jackbox_ukraine-fakinit",
+                  "linked_game": "fakinit",
+                  "name": "Надурисвіт",
+                  "description": "Повний текстовий переклад гри з повним озвученням від Ореста Лукʼянчука.",
+                  "authors": "- Jackbox Ukraine\n- Орест Лукʼянчук",
+                  "small_description": "Повний текстовий переклад гри з повним озвученням від Ореста Лукʼянчука",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": false,
+                    "website": true,
+                    "audios": true
+                  }
+                },
+                {
+                  "id": "jackbox_ukraine-quiplash2",
+                  "linked_game": "quiplash2",
+                  "name": "Сміхрясь 2",
+                  "description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а.",
+                  "authors": "- Jackbox Ukraine\n- Lost Human",
+                  "small_description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": false,
+                    "website": true,
+                    "audios": true
+                  }
+                },
+                {
+                  "id": "jackbox_ukraine-teeko",
+                  "linked_game": "teeko",
+                  "name": "Футбол К.О.",
+                  "description": "Повний текстовий переклад гри з повним озвученням від Падона.",
+                  "authors": "- Jackbox Ukraine\n- Падон",
+                  "small_description": "Повний текстовий переклад гри з повним озвученням від Падона",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": false,
+                    "website": true,
+                    "audios": true
+                  }
+                },
+                {
+                  "id": "jackbox_ukraine-guesspionage",
+                  "linked_game": "guesspionage",
+                  "name": "Шпигадаш",
+                  "description": "Повний текстовий переклад гри з частковим озвученням від Slidan'а. Цей переклад присвячений памʼяті Антона Стрікова - героя, що загинув під Бахмутом захищаючи Україну.",
+                  "authors": "- Jackbox Ukraine\n- Slidan",
+                  "small_description": "Повний текстовий переклад гри з частковим озвученням від Slidan'а",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": false,
+                    "website": true,
+                    "audios": true
+                  }
+                },
+                {
+                  "id": "jackbox_ukraine-triviamurderparty",
+                  "linked_game": "triviamurderparty",
+                  "name": "Смертельні вечорниці",
+                  "description": "Повний текстовий переклад гри без озвучення.",
+                  "authors": "Jackbox Ukraine",
+                  "small_description": "Повний текстовий переклад гри без озвучення",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": false,
+                    "website": true,
+                    "audios": false
+                  }
+                }
+              ]
+            }
+          ],
         "games":[
             {
                 "id":"quiplash2",
@@ -965,7 +1079,97 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-4",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-4"
         },
-        "patchs":[],
+        "patchs": [
+            {
+              "id": "jackbox_ukraine-4",
+              "name": "Jackbox Party Pack 4",
+              "small_description": "Текстовий переклад усіх ігор, озвучення до двох",
+              "patch_path": "https://github.com/jackbox-ukraine/jpp4/releases/latest/download/JPP4-UA.zip",
+              "configuration": {
+                "version_origin": "repo_file",
+                "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/jpp4/main/jbg.config.jet",
+                "version_property": "buildVersion"
+              },
+              "supported_launchers": ["steam","native"],
+              "components": [
+                {
+                  "id": "jackbox_ukraine-monsterseekingmonster",
+                  "linked_game": "monsterseekingmonster",
+                  "name": "Монстр шукає монстра",
+                  "description": "Текстовий переклад гри без озвучення.",
+                  "authors": "Jackbox Ukraine",
+                  "small_description": "Текстовий переклад гри без озвучення",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": false,
+                    "game_subtitles": false,
+                    "website": true,
+                    "audios": false
+                  }
+                },
+                {
+                  "id": "jackbox_ukraine-survivetheinternet",
+                  "linked_game": "survivetheinternet",
+                  "name": "Вижити в Інтернеті",
+                  "description": "Повний текстовий переклад гри з повним озвученням від Квадратного та OLDBoi.",
+                  "authors": "- Jackbox Ukraine\n- Квадратний\n- OLDBoi",
+                  "small_description": "Повний текстовий переклад гри з повним озвученням від Квадратного та OLDBoi",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": false,
+                    "website": true,
+                    "audios": true
+                  }
+                },
+                {
+                  "id": "jackbox_ukraine-civicdoodle",
+                  "linked_game": "civicdoodle",
+                  "name": "Громадська мазня",
+                  "description": "Повний текстовий переклад гри з повним озвученням від MariAm та SkomUA.",
+                  "authors": "- Jackbox Ukraine\n- MariAm\n- SkomUA",
+                  "small_description": "Повний текстовий переклад гри з повним озвученням від MariAm та SkomUA",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": false,
+                    "website": true,
+                    "audios": true
+                  }
+                },
+                {
+                  "id": "jackbox_ukraine-bracketeering",
+                  "linked_game": "bracketeering",
+                  "name": "Жартурнір",
+                  "description": "Текстовий переклад гри без озвучення.",
+                  "authors": "Jackbox Ukraine",
+                  "small_description": "Текстовий переклад гри без озвучення",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": false,
+                    "website": true,
+                    "audios": false
+                  }
+                },
+                {
+                  "id": "jackbox_ukraine-fibbage3",
+                  "linked_game": "fibbage3",
+                  "name": "Брехалище 3",
+                  "description": "Частковий текстовий переклад гри без озвучення.",
+                  "authors": "Jackbox Ukraine",
+                  "small_description": "Частковий текстовий переклад гри без озвучення",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": false,
+                    "website": true,
+                    "audios": false
+                  }
+                }
+              ]
+            }
+          ],
         "games":[
             {
                 "id":"fibbage3",
@@ -1573,7 +1777,92 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-6",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-6"
         },
-        "patchs":[],
+        "patchs": [
+            {
+              "id": "jackbox_ukraine-6",
+              "name": "Jackbox Party Pack 6",
+              "small_description": "Текстовий переклад однієї гри",
+              "patch_path": "https://github.com/jackbox-ukraine/jpp6/releases/latest/download/JPP6-UA.zip",
+              "configuration": {
+                "version_origin": "repo_file",
+                "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/jpp6/main/config.jet",
+                "version_property": "buildVersion"
+              },
+              "supported_launchers": ["steam","epic","native"],
+              "components": [
+                {
+                  "id": "jackbox_ukraine-triviamurderparty2",
+                  "linked_game": "trivia_murder_party_2",
+                  "name": "Смертельні Вечорниці 2",
+                  "description": "Повний текстовий переклад гри без озвучення.",
+                  "authors": "Jackbox Ukraine",
+                  "small_description": "Повний текстовий переклад гри без озвучення",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": true,
+                    "website": true,
+                    "audios": false
+                  }
+                }
+              ]
+            },
+            {
+                "id": "tusa-6",
+                "name": "Jackbox Party Pack 6",
+                "small_description": "Текстовий переклад трьох ігор",
+                "patch_path": "https://dl.dropboxusercontent.com/scl/fi/uk7eppm4rqynh6c4zzwbn/TUSA_JPP6-demo1.zip?rlkey=ych922yx4l5rnv8sx9pegga8q&st=73drj5yw&dl=0",
+                "version": "Build: 25.1-UK",
+                "supported_launchers": ["steam","native"],
+                "components": [
+                  {
+                    "id": "tusa-triviamurderparty2",
+                    "linked_game": "trivia_murder_party_2",
+                    "name": "Вбивча Вікторина 2",
+                    "description": "Текстовий переклад гри без озвучення.",
+                    "authors": "TUSA",
+                    "small_description": "Текстовий переклад гри без озвучення",
+                    "patch_type": {
+                      "game_text": true,
+                      "game_assets": true,
+                      "game_subtitles": true,
+                      "website": true,
+                      "audios": false
+                    }
+                  },
+                  {
+                    "id": "tusa-jokeboat",
+                    "linked_game": "jokeboat",
+                    "name": "Жартоплав",
+                    "description": "Текстовий переклад гри без озвучення.",
+                    "authors": "TUSA",
+                    "small_description": "Текстовий переклад гри без озвучення",
+                    "patch_type": {
+                      "game_text": true,
+                      "game_assets": true,
+                      "game_subtitles": true,
+                      "website": true,
+                      "audios": false
+                    }
+                  },
+                  {
+                    "id": "tusa-pushthebutton",
+                    "linked_game": "pushthebutton",
+                    "name": "Тисни на кнопку",
+                    "description": "Текстовий переклад гри без озвучення.",
+                    "authors": "TUSA",
+                    "small_description": "Текстовий переклад гри без озвучення",
+                    "patch_type": {
+                      "game_text": true,
+                      "game_assets": true,
+                      "game_subtitles": true,
+                      "website": true,
+                      "audios": false
+                    }
+                  }
+                ]
+              }
+          ],
         "games":[
         	{
                 "id":"trivia_murder_party_2",
@@ -1881,7 +2170,37 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-7",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-7"
         },
-        "patchs":[],
+        "patchs": [
+            {
+              "id": "jackbox_ukraine-7",
+              "name": "Jackbox Party Pack 7",
+              "small_description": "Текстовий переклад однієї гри з частковим озвученням",
+              "patch_path": "https://github.com/jackbox-ukraine/jpp7/releases/latest/download/JPP7-UA.zip",
+              "configuration": {
+                "version_origin": "repo_file",
+                "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/jpp7/main/config.jet",
+                "version_property": "buildVersion"
+              },
+              "supported_launchers": ["steam","epic","native"],
+              "components": [
+                {
+                  "id": "jackbox_ukraine-quiplash3",
+                  "linked_game": "quiplash3",
+                  "name": "Сміхрясь 3",
+                  "description": "Повний текстовий переклад гри з частковим озвученням від Lost Human'а.",
+                  "authors": "- Jackbox Ukraine\n- Lost Human",
+                  "small_description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а.",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": true,
+                    "website": true,
+                    "audios": true
+                  }
+                }
+              ]
+            }
+          ],
         "games":[
             {
                 "id":"quiplash3",
@@ -3081,7 +3400,67 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-starter",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-starter"
         },
-            "patchs":[],
+        "patchs": [
+            {
+              "id": "jackbox_ukraine-starter",
+              "name": "Jackbox Party Starter",
+              "small_description": "Текстовий переклад усіх ігор, озвучення до двох",
+              "patch_path": "https://github.com/jackbox-ukraine/tjsp/releases/latest/download/TheJackboxPartyStarter-UA.zip",
+              "configuration": {
+                "version_origin": "repo_file",
+                "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/tjsp/main/config.jet",
+                "version_property": "buildVersion"
+              },
+              "supported_launchers": ["steam","epic","native"],
+              "components": [
+                {
+                  "id": "jackbox_ukraine-teeko_starter",
+                  "linked_game": "teeko_starter",
+                  "name": "Футбол К.О.",
+                  "description": "Повний текстовий переклад гри з повним озвученням від Падона.",
+                  "authors": "- Jackbox Ukraine\n- Падон",
+                  "small_description": "Повний текстовий переклад гри з повним озвученням від Падона",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": true,
+                    "website": true,
+                    "audios": true
+                  }
+                },
+                {
+                  "id": "jackbox_ukraine-triviamurderparty2_starter",
+                  "linked_game": "trivia_murder_party_2_starter",
+                  "name": "Смертельні Вечорниці 2",
+                  "description": "Повний текстовий переклад гри без озвучення.",
+                  "authors": "Jackbox Ukraine",
+                  "small_description": "Повний текстовий переклад гри без озвучення",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": true,
+                    "website": true,
+                    "audios": false
+                  }
+                },
+                {
+                  "id": "jackbox_ukraine-quiplash3_starter",
+                  "linked_game": "quiplash3_starter",
+                  "name": "Сміхрясь 3",
+                  "description": "Повний текстовий переклад гри з частковим озвученням від Lost Human'а.",
+                  "authors": "- Jackbox Ukraine\n- Lost Human",
+                  "small_description": "Повний текстовий переклад гри з частковим озвученням від Lost Human'а.",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": true,
+                    "website": true,
+                    "audios": true
+                  }
+                }
+              ]
+            }
+          ],
         "games":[
             {
                 "id":"quiplash3_starter",
@@ -3535,7 +3914,33 @@
             "steam":"https://store.steampowered.com/app/351510/Quiplash/",
             "jackbox_games_store":"https://www.jackboxgames.com/games/quiplash"
         },
-            "patchs":[],
+        "patchs": [
+            {
+              "id": "translate_guardians-quiplash",
+              "name": "Жартлист",
+              "small_description": "Повний текстовий переклад гри з повним озвученням",
+              "patch_path": "https://dl.dropboxusercontent.com/scl/fi/7n7opmgudxyvb2khd3g51/TUSA_Quiplash-v1.1.zip?rlkey=o75ftoscqu5r0qngn7u1cikhd&st=u88qex3w&dl=0",
+              "version": "Build: 25.1-UK",
+              "supported_launchers": ["steam","epic_games","native"],
+              "components": [
+                {
+                  "id": "translate_guardians-quiplash_game",
+                  "linked_game": "quiplash",
+                  "name": "Жартлист",
+                  "description": "Повний текстовий переклад гри з повним озвученням.",
+                  "authors": "Translate Guardians (TUSA)",
+                  "small_description": "Повний текстовий переклад гри з повним озвученням",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": true,
+                    "website": true,
+                    "audios": true
+                  }
+                }
+              ]
+            }
+          ],
         "games":[
             {
                 "id":"quiplash",
@@ -3622,7 +4027,37 @@
             "epic": "https://store.epicgames.com/p/quiplash-2-interlashional-3c3888",
             "jackbox_games_store":"https://www.jackboxgames.com/games/quiplash-2-interlashional"
         },
-            "patchs":[],
+        "patchs": [
+            {
+              "id": "jackbox_ukraine-quiplash2int",
+              "name": "Сміхрясь 2 МіжСМІХціональний",
+              "small_description": "Текстовий переклад з повним озвученням",
+              "patch_path": "https://github.com/jackbox-ukraine/quiplash-2/releases/latest/download/Quiplash2-UA.zip",
+              "configuration": {
+                "version_origin": "repo_file",
+                "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/quiplash-2/main/jbg.config.jet",
+                "version_property": "buildVersion"
+              },
+              "supported_launchers": ["steam","epic","native"],
+              "components": [
+                {
+                  "id": "jackbox_ukraine-quiplash2int_game",
+                  "linked_game": "quiplash2interlashional",
+                  "name": "Сміхрясь 2 МіжСМІХціональний",
+                  "description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а.",
+                  "authors": "- Jackbox Ukraine\n- Lost Human",
+                  "small_description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": true,
+                    "website": true,
+                    "audios": true
+                  }
+                }
+              ]
+            }
+          ],
         "games":[
             {
                 "id":"quiplash2interlashional",
@@ -3709,7 +4144,37 @@
             "epic":"https://store.epicgames.com/p/drawful-2",
             "jackbox_games_store":"https://www.jackboxgames.com/games/drawful-2"
         },
-            "patchs":[],
+        "patchs": [
+            {
+              "id": "jackbox_ukraine-drawful2",
+              "name": "Малювач 2",
+              "small_description": "Текстовий переклад з повним озвученням",
+              "patch_path": "https://github.com/jackbox-ukraine/drawful-2/releases/latest/download/Drawful2-UA.zip",
+              "configuration": {
+                "version_origin": "repo_file",
+                "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/drawful-2/main/jbg.config.jet",
+                "version_property": "buildVersion"
+              },
+              "supported_launchers": ["steam","epic","native"],
+              "components": [
+                {
+                  "id": "jackbox_ukraine-drawful2_game",
+                  "linked_game": "drawful_2",
+                  "name": "Малювач 2",
+                  "description": "Повний текстовий переклад гри з повним озвученням від Lunar Shadow.",
+                  "authors": "- Jackbox Ukraine\n- Lunar Shadow",
+                  "small_description": "Повний текстовий переклад гри з повним озвученням від Lunar Shadow",
+                  "patch_type": {
+                    "game_text": true,
+                    "game_assets": true,
+                    "game_subtitles": true,
+                    "website": true,
+                    "audios": true
+                  }
+                }
+              ]
+            }
+          ],
         "games":[
             {
                 "id":"drawful_2",
