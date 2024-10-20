@@ -49,7 +49,7 @@
       {
         "id": "tusa",
         "name": "TUSA",
-        "smallDescription": "«TUSA» — це команда, що утворилася 21 жовтня 2022 року внаслідок об'єднання локалізаторів з «What If?», «TDoT», «Translate Guardians» та «AE Studios».",
+        "smallDescription": "Команда, що утворилася 21 жовтня 2022 року внаслідок об'єднання локалізаторів з «What If?», «TDoT», «Translate Guardians» та «AE Studios».",
         "patchs": [
           "tusa-6",
           "translate_guardians-quiplash"
@@ -1780,7 +1780,7 @@
         "patchs": [
             {
               "id": "jackbox_ukraine-6",
-              "name": "Jackbox Party Pack 6",
+              "name": "Jackbox Party Pack 6 (Jackbox Ukraine)",
               "small_description": "Текстовий переклад однієї гри",
               "patch_path": "https://github.com/jackbox-ukraine/jpp6/releases/latest/download/JPP6-UA.zip",
               "configuration": {
@@ -1809,7 +1809,7 @@
             },
             {
                 "id": "tusa-6",
-                "name": "Jackbox Party Pack 6",
+                "name": "Jackbox Party Pack 6 (TUSA)",
                 "small_description": "Текстовий переклад трьох ігор",
                 "patch_path": "https://dl.dropboxusercontent.com/scl/fi/uk7eppm4rqynh6c4zzwbn/TUSA_JPP6-demo1.zip?rlkey=ych922yx4l5rnv8sx9pegga8q&st=73drj5yw&dl=0",
                 "version": "Build: 25.1-UK",
@@ -3918,7 +3918,7 @@
             {
               "id": "translate_guardians-quiplash",
               "name": "Жартлист",
-              "small_description": "Повний текстовий переклад гри з повним озвученням",
+              "small_description": "Текстовий переклад з повним озвученням",
               "patch_path": "https://dl.dropboxusercontent.com/scl/fi/7n7opmgudxyvb2khd3g51/TUSA_Quiplash-v1.1.zip?rlkey=o75ftoscqu5r0qngn7u1cikhd&st=u88qex3w&dl=0",
               "version": "Build: 25.1-UK",
               "supported_launchers": ["steam","epic_games","native"],
