@@ -2,9 +2,15 @@
     "news":[
         {
             "id":"2024-10-20 00:00:00",
-            "title":"Donate",
+            "title":"Donate Now",
             "link":"https://u24.gov.ua/",
             "image":"news_images/u24.png"
+        },
+        {
+            "id":"2024-10-20 00:00:00",
+            "title":"Join Discord Servers",
+            "content":"• **Jackbox Utility** (official support server):\nhttps://discord.gg/ffKMZeb88m\n\n\n• **Jackbox Ukraine**:\nhttps://discord.gg/BDcPjPmSTz\n\n\n• *TUSA*:\nhttps://discord.gg/Ayxf9Cvfg9",
+            "image":"news_images/discord.png"
         }
     ]
 
