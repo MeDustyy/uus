@@ -1,23 +1,26 @@
 {
-    "id":"uus",
-    "name":"United Ukrainian Server",
-    "description":"A server containing all publicly available Ukrainian patches. No disputes. United.",
-    "image":"https://raw.githubusercontent.com/MeDustyy/uus/main/assets/news_images/logo.png",
-
-    "urls":[
-        {
-            "versions":["1.0.0"],
-            "api":"https://raw.githubusercontent.com/MeDustyy/uus/main/api/v2/",
-            "assets":"https://raw.githubusercontent.com/MeDustyy/uus/main/assets"
-        }
-    ],
-    "controller":"jackbox.tv",
-    "languages":["en"],
-    "links": [
-        {
-            "icon":"telegram",
-            "url":"https://t.me/MeDustyy",
-            "text":"Contact"
-        }
-     ]
+  "id": "uus",
+  "name": "United Ukrainian Server",
+  "description": "A server containing all publicly available Ukrainian patches. No disputes. United.",
+  "image": "https://raw.githubusercontent.com/MeDustyy/uus/main/assets/news_images/logo.png",
+  "urls": [
+    {
+      "versions": [
+        "1.0.0"
+      ],
+      "api": "https://raw.githubusercontent.com/MeDustyy/uus/main/api/v2/",
+      "assets": "https://raw.githubusercontent.com/MeDustyy/uus/main/assets"
+    }
+  ],
+  "controller": "jackbox.tv",
+  "languages": [
+    "en"
+  ],
+  "links": [
+    {
+      "icon": "telegram",
+      "url": "https://t.me/MeDustyy",
+      "text": "Contact"
+    }
+  ]
 }
