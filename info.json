@@ -1,7 +1,7 @@
 {
   "id": "uus",
-  "name": "United Ukrainian Server",
-  "description": "A server containing all publicly available Ukrainian patches. No disputes. United.",
+  "name": "Universal Ukrainian Server",
+  "description": "A server containing all publicly available Ukrainian patches.",
   "image": "https://raw.githubusercontent.com/MeDustyy/uus/main/assets/news_images/logo.png",
   "urls": [
     {
