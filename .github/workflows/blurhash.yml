@@ -15,8 +15,8 @@ jobs:
          sdk: 3.8.1
      - name: Build blurhash
        working-directory: .github/workflows/blurhash/jackboxutility_blurhash
-       run: dart pub get && dart run jackboxutility_blurhash.dart https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/api/v2/packs.json https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/assets
-     - uses: actions/upload-artifact@v3
+       run: dart pub get && dart run jackboxutility_blurhash.dart https://raw.githubusercontent.com/MeDustyy/uus/main/api/v2/packs.json https://raw.githubusercontent.com/MeDustyy/uus/main/assets
+     - uses: actions/upload-artifact@v4
        with:
           name: blurHashes.json
           path: .github/workflows/blurhash/jackboxutility_blurhash/out/blurHashes.json
