@@ -1107,7 +1107,7 @@
             "id": "jackbox_ukraine-fibbage3",
             "linked_game": "fibbage3",
             "name": "Брехалище 3",
-            "description": "Частковий текстовий переклад гри з частковим озвученням від Ореста Лук'янчука.",
+            "description": "Текстовий переклад гри з частковим озвученням від Ореста Лук'янчука.",
             "authors": "Jackbox Ukraine\n- Орест Лук'янчук",
             "small_description": "Частковий текстовий переклад гри з частковим озвученням від Ореста Лук'янчука",
             "patch_type": {
@@ -1426,7 +1426,7 @@
           "name": "Розділи кімнату",
           "description": "Повний текстовий переклад гри з повним озвученням від RendarosUA.",
           "authors": "- Jackbox Ukraine\n- RendarosUA",
-          "small_description": "Повний текстовий переклад гри з повним озвученням від RendarosUA.",
+          "small_description": "Повний текстовий переклад гри з повним озвученням від RendarosUA",
           "patch_type": {
             "game_text": true,
             "game_assets": true,
@@ -2104,7 +2104,7 @@
       "patchs": [{
         "id": "jackbox_ukraine-7",
         "name": "Jackbox Ukraine",
-        "small_description": "Текстовий переклад однієї гри з озвученням",
+        "small_description": "Текстовий переклад однієї гри з повним озвученням",
         "patch_path": "https://github.com/jackbox-ukraine/jpp7/releases/latest/download/JPP7-UA.zip",
         "configuration": {
           "version_origin": "repo_file",
@@ -2121,7 +2121,7 @@
           "name": "Сміхрясь 3",
           "description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а.",
           "authors": "- Jackbox Ukraine\n- Lost Human",
-          "small_description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а.",
+          "small_description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а",
           "patch_type": {
             "game_text": true,
             "game_assets": true,
@@ -3354,7 +3354,7 @@
       "patchs": [{
         "id": "jackbox_ukraine-starter",
         "name": "Jackbox Ukraine",
-        "small_description": "Текстовий переклад усіх ігор з озвученням",
+        "small_description": "Текстовий переклад усіх ігор з повним озвученням",
         "patch_path": "https://github.com/jackbox-ukraine/tjsp/releases/latest/download/TheJackboxPartyStarter-UA.zip",
         "configuration": {
           "version_origin": "repo_file",

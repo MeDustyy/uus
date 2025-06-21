@@ -1,22 +1,15 @@
 {
-  "news": [
-    {
-      "id": "2024-10-20 00:00:00",
-      "title": "Donate Now",
-      "link": "https://u24.gov.ua/",
-      "image": "news_images/u24.png"
-    },
-    {
+  "news": [{
       "id": "2024-10-20 00:00:00",
       "title": "Join Discord Servers",
-      "content": "• **Jackbox Utility**:\n\nhttps://discord.gg/ffKMZeb88m\n\n \n\n• **Jackbox Ukraine**:\n\nhttps://discord.gg/BDcPjPmSTz\n\n \n\n• **TUSA**:\nhttps://discord.gg/Ayxf9Cvfg9",
+      "content": "**Jackbox Utility**: https://bit.ly/uus-j\n\n \n\n**Jackbox Ukraine**: https://bit.ly/uus-u\n\n \n\n**TUSA**: https://bit.ly/uus-t",
       "image": "news_images/discord.png"
     },
     {
-        "id": "2024-10-20 00:00:00",
-        "title": "Server Info",
-        "content": "*TBA*",
-        "image": "news_images/info.png"
-      }
+      "id": "2024-10-20 00:00:00",
+      "title": "Donate Now!",
+      "link": "https://u24.gov.ua/",
+      "image": "news_images/u24.png"
+    }
   ]
 }
