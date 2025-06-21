@@ -37,6 +37,7 @@
       "patchs": [
         "jackbox_ukraine-3",
         "jackbox_ukraine-4",
+        "jackbox_ukraine-5",
         "jackbox_ukraine-6",
         "jackbox_ukraine-7",
         "jackbox_ukraine-starter",
@@ -50,6 +51,7 @@
       "smallDescription": "The team was formed on 21 October 2022 as a result of the merger of localizers from What If?, TDoT, Translate Guardians and AE Studios.",
       "patchs": [
         "tusa-6",
+        "tusa-9",
         "translate_guardians-quiplash"
       ]
     }
@@ -656,12 +658,11 @@
         "patch_path": "https://github.com/jackbox-ukraine/jpp3/releases/latest/download/JPP3-ua.zip",
         "configuration": {
           "version_origin": "repo_file",
-          "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/jpp3/main/config.jet",
+          "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/jpp3/main/jbg.config.jet",
           "version_property": "buildVersion"
         },
         "supported_launchers": [
           "steam",
-          "epic",
           "native"
         ],
         "components": [{
@@ -1031,7 +1032,7 @@
       "patchs": [{
         "id": "jackbox_ukraine-4",
         "name": "Jackbox Ukraine",
-        "small_description": "Текстовий переклад усіх ігор, озвучення до двох",
+        "small_description": "Текстовий переклад усіх ігор, озвучення до чотирьох",
         "patch_path": "https://github.com/jackbox-ukraine/jpp4/releases/latest/download/JPP4-UA.zip",
         "configuration": {
           "version_origin": "repo_file",
@@ -1091,30 +1092,30 @@
             "id": "jackbox_ukraine-bracketeering",
             "linked_game": "bracketeering",
             "name": "Жартурнір",
-            "description": "Текстовий переклад гри без озвучення.",
-            "authors": "Jackbox Ukraine",
-            "small_description": "Текстовий переклад гри без озвучення",
+            "description": "Повний текстовий переклад гри з повним озвученням від Adrian ZP.",
+            "authors": "Jackbox Ukraine\n- Adrian ZP",
+            "small_description": "Повний текстовий переклад гри з повним озвученням від Adrian ZP",
             "patch_type": {
               "game_text": true,
               "game_assets": true,
               "game_subtitles": false,
               "website": true,
-              "audios": false
+              "audios": true
             }
           },
           {
             "id": "jackbox_ukraine-fibbage3",
             "linked_game": "fibbage3",
             "name": "Брехалище 3",
-            "description": "Частковий текстовий переклад гри без озвучення.",
-            "authors": "Jackbox Ukraine",
-            "small_description": "Частковий текстовий переклад гри без озвучення",
+            "description": "Частковий текстовий переклад гри з частковим озвученням від Ореста Лук'янчука.",
+            "authors": "Jackbox Ukraine\n- Орест Лук'янчук",
+            "small_description": "Частковий текстовий переклад гри з частковим озвученням від Ореста Лук'янчука",
             "patch_type": {
               "game_text": true,
               "game_assets": true,
               "game_subtitles": false,
               "website": true,
-              "audios": false
+              "audios": true
             }
           }
         ]
@@ -1405,7 +1406,36 @@
         "epic": "https://store.epicgames.com/p/jackbox-party-pack-5",
         "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-5"
       },
-      "patchs": [],
+      "patchs": [{
+        "id": "jackbox_ukraine-5",
+        "name": "Jackbox Ukraine",
+        "small_description": "Текстовий переклад однієї гри з повним озвученням",
+        "patch_path": "https://github.com/jackbox-ukraine/jpp5/releases/latest/download/JPP5-UA.zip",
+        "configuration": {
+          "version_origin": "repo_file",
+          "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/jpp5/main/jbg.config.jet",
+          "version_property": "buildVersion"
+        },
+        "supported_launchers": [
+          "steam",
+          "native"
+        ],
+        "components": [{
+          "id": "jackbox_ukraine-splittheroom",
+          "linked_game": "splittheroom",
+          "name": "Розділи кімнату",
+          "description": "Повний текстовий переклад гри з повним озвученням від RendarosUA.",
+          "authors": "- Jackbox Ukraine\n- RendarosUA",
+          "small_description": "Повний текстовий переклад гри з повним озвученням від RendarosUA.",
+          "patch_type": {
+            "game_text": true,
+            "game_assets": true,
+            "game_subtitles": true,
+            "website": true,
+            "audios": true
+          }
+        }]
+      }],
       "games": [{
           "id": "ydkj_fullstream",
           "name": "You Don't Know Jack: Full Stream",
@@ -1695,31 +1725,30 @@
       "patchs": [{
           "id": "jackbox_ukraine-6",
           "name": "Jackbox Ukraine",
-          "small_description": "Текстовий переклад однієї гри",
+          "small_description": "Текстовий переклад однієї гри з частковим озвученням",
           "patch_path": "https://github.com/jackbox-ukraine/jpp6/releases/latest/download/JPP6-UA.zip",
           "configuration": {
             "version_origin": "repo_file",
-            "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/jpp6/main/config.jet",
+            "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/jpp6/main/jbg.config.jet",
             "version_property": "buildVersion"
           },
           "supported_launchers": [
             "steam",
-            "epic",
             "native"
           ],
           "components": [{
             "id": "jackbox_ukraine-triviamurderparty2",
             "linked_game": "trivia_murder_party_2",
             "name": "Смертельні Вечорниці 2",
-            "description": "Повний текстовий переклад гри без озвучення.",
-            "authors": "Jackbox Ukraine",
-            "small_description": "Повний текстовий переклад гри без озвучення",
+            "description": "Повний текстовий переклад гри з частковим озвученням від Безлада.",
+            "authors": "Jackbox Ukraine\n- Безлад",
+            "small_description": "Повний текстовий переклад гри з частковим озвученням від Безлада",
             "patch_type": {
               "game_text": true,
               "game_assets": true,
               "game_subtitles": true,
               "website": true,
-              "audios": false
+              "audios": true
             }
           }]
         },
@@ -2075,7 +2104,7 @@
       "patchs": [{
         "id": "jackbox_ukraine-7",
         "name": "Jackbox Ukraine",
-        "small_description": "Текстовий переклад однієї гри з частковим озвученням",
+        "small_description": "Текстовий переклад однієї гри з озвученням",
         "patch_path": "https://github.com/jackbox-ukraine/jpp7/releases/latest/download/JPP7-UA.zip",
         "configuration": {
           "version_origin": "repo_file",
@@ -2084,14 +2113,13 @@
         },
         "supported_launchers": [
           "steam",
-          "epic",
           "native"
         ],
         "components": [{
           "id": "jackbox_ukraine-quiplash3",
           "linked_game": "quiplash3",
           "name": "Сміхрясь 3",
-          "description": "Повний текстовий переклад гри з частковим озвученням від Lost Human'а.",
+          "description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а.",
           "authors": "- Jackbox Ukraine\n- Lost Human",
           "small_description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а.",
           "patch_type": {
@@ -2687,7 +2715,64 @@
         "epic": "https://store.epicgames.com/p/jackbox-party-pack-9",
         "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-9"
       },
-      "patchs": [],
+      "patchs": [{
+          "id": "tusa-9",
+          "name": "TUSA",
+          "small_description": "Текстовий переклад трьох ігор",
+          "patch_path": "https://github.com/relghub/tjpp-9-ua-patch/releases/latest/download/tjpp9-ua.zip",
+          "version": "Build: 653.4-UK",
+          "supported_launchers": [
+            "steam",
+            "native"
+          ],
+          "components": [{
+              "id": "tusa-roomerang",
+              "linked_game": "roomerang",
+              "name": "Квартиранг",
+              "description": "Текстовий переклад гри без озвучення.",
+              "authors": "TUSA",
+              "small_description": "Текстовий переклад гри без озвучення",
+              "patch_type": {
+                "game_text": true,
+                "game_assets": true,
+                "game_subtitles": true,
+                "website": true,
+                "audios": false
+              }
+            },
+            {
+              "id": "tusa-junktopia",
+              "linked_game": "junktopia",
+              "name": "Сміттєтопія",
+              "description": "Текстовий переклад гри без озвучення.",
+              "authors": "TUSA",
+              "small_description": "Текстовий переклад гри без озвучення",
+              "patch_type": {
+                "game_text": true,
+                "game_assets": true,
+                "game_subtitles": true,
+                "website": true,
+                "audios": false
+              }
+            },
+            {
+              "id": "tusa-quixort",
+              "linked_game": "quixort",
+              "name": "Швидкосорт",
+              "description": "Текстовий переклад гри без озвучення.",
+              "authors": "TUSA",
+              "small_description": "Текстовий переклад гри без озвучення",
+              "patch_type": {
+                "game_text": true,
+                "game_assets": true,
+                "game_subtitles": true,
+                "website": true,
+                "audios": false
+              }
+            }
+          ]
+        }
+      ],
       "games": [{
           "id": "fibbage4",
           "name": "Fibbage 4",
@@ -3269,16 +3354,15 @@
       "patchs": [{
         "id": "jackbox_ukraine-starter",
         "name": "Jackbox Ukraine",
-        "small_description": "Текстовий переклад усіх ігор, озвучення до двох",
+        "small_description": "Текстовий переклад усіх ігор з озвученням",
         "patch_path": "https://github.com/jackbox-ukraine/tjsp/releases/latest/download/TheJackboxPartyStarter-UA.zip",
         "configuration": {
           "version_origin": "repo_file",
-          "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/tjsp/main/config.jet",
+          "version_file": "https://raw.githubusercontent.com/jackbox-ukraine/tjsp/main/jbg.config.jet",
           "version_property": "buildVersion"
         },
         "supported_launchers": [
           "steam",
-          "epic",
           "native"
         ],
         "components": [{
@@ -3300,24 +3384,24 @@
             "id": "jackbox_ukraine-triviamurderparty2_starter",
             "linked_game": "trivia_murder_party_2_starter",
             "name": "Смертельні Вечорниці 2",
-            "description": "Повний текстовий переклад гри без озвучення.",
-            "authors": "Jackbox Ukraine",
-            "small_description": "Повний текстовий переклад гри без озвучення",
+            "description": "Повний текстовий переклад гри з частковим озвученням від Безлада.",
+            "authors": "Jackbox Ukraine\n- Безлад",
+            "small_description": "Повний текстовий переклад гри з частковим озвученням від Безлада",
             "patch_type": {
               "game_text": true,
               "game_assets": true,
               "game_subtitles": true,
               "website": true,
-              "audios": false
+              "audios": true
             }
           },
           {
             "id": "jackbox_ukraine-quiplash3_starter",
             "linked_game": "quiplash3_starter",
             "name": "Сміхрясь 3",
-            "description": "Повний текстовий переклад гри з частковим озвученням від Lost Human'а.",
+            "description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а.",
             "authors": "- Jackbox Ukraine\n- Lost Human",
-            "small_description": "Повний текстовий переклад гри з частковим озвученням від Lost Human'а.",
+            "small_description": "Повний текстовий переклад гри з повним озвученням від Lost Human'а",
             "patch_type": {
               "game_text": true,
               "game_assets": true,
@@ -3974,7 +4058,6 @@
         },
         "supported_launchers": [
           "steam",
-          "epic",
           "native"
         ],
         "components": [{
@@ -4086,7 +4169,6 @@
         },
         "supported_launchers": [
           "steam",
-          "epic",
           "native"
         ],
         "components": [{
