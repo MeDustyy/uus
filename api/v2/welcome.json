@@ -1,6 +1,12 @@
 {
   "news": [{
       "id": "2024-10-20 00:00:00",
+      "title": "Localization Spreadsheet",
+      "link": "https://docs.google.com/spreadsheets/d/1ey43LQlFB85E1G7NGFokWjgdq_w6BK4BHgjx0lGbXrE/edit?usp=sharing",
+      "image": "news_images/info.png"
+    },
+    {
+      "id": "2024-10-20 00:00:00",
       "title": "Join Discord Servers",
       "content": "**Jackbox Utility**: https://bit.ly/uus-j\n\n \n\n**Jackbox Ukraine**: https://bit.ly/uus-u\n\n \n\n**TUSA**: https://bit.ly/uus-t",
       "image": "news_images/discord.png"
